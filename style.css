@@ -1,0 +1,41 @@
+.him {
+    position: fixed;
+    width: 30rem;
+    left: 5rem;
+    bottom: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    position: fixed;
+    top: 4rem;
+    right: 2rem;
+    text-align: right;
+}
+
+.title h1 {
+    font-size: 4rem;
+}
+
+button {
+    outline: 0px;
+    background-color: #ec8aff;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-family: "Poppins", sans-serif;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    top: 0px;
+    transition: top .2s, opacity .2s;
+    opacity: 1;
+}
+
+button:hover {
+    top: .5rem;
+    opacity: .8;
+}
