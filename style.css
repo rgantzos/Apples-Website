@@ -1,17 +1,20 @@
 .him {
     position: fixed;
-    width: 30rem;
-    left: 5rem;
+    width: 40rem;
+    left: -5rem;
     bottom: 0px;
 }
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #1e2533;
+    color: white;
+    overflow-x: hidden;
 }
 
 .title {
     position: fixed;
-    top: 4rem;
+    top: calc(50% - 7rem);
     right: 2rem;
     text-align: right;
 }
@@ -38,4 +41,19 @@ button {
 button:hover {
     top: .5rem;
     opacity: .8;
+}
+
+.nav {
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    padding: .5rem;
+    padding-top: 0rem;
+}
+
+.nav .icon {
+    height: 2rem;
+    margin-right: .5rem;
+    position: relative;
+    top: .6rem;
 }
