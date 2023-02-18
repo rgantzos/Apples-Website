@@ -10,6 +10,7 @@ body {
     background-color: #1e2533;
     color: white;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .title {
