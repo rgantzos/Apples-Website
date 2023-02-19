@@ -91,3 +91,12 @@ button:hover {
         width: 100%;
     }
 }
+
+.scroll {
+    position: fixed;
+    bottom: 1rem;
+    width: 8rem;
+    text-align: center;
+    left: calc(50vw - 4rem);
+    opacity: .5;
+}
