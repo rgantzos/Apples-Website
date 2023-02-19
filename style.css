@@ -62,7 +62,7 @@ button:hover {
     top: .6rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media (pointer:none), (pointer:coarse) {
     .title {
         top: 6rem;
     }
