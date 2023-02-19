@@ -18,6 +18,7 @@ body {
     top: calc(50% - 7rem);
     right: 2rem;
     text-align: right;
+    z-index: 99999999;
 }
 
 .title h1 {
