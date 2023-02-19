@@ -3,14 +3,14 @@
     width: 40rem;
     left: -5rem;
     bottom: 0px;
+    z-index: -99999999;
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #1e2533;
+    background-color: #4674d0;
     color: white;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .title {
@@ -18,12 +18,10 @@ body {
     top: calc(50% - 7rem);
     right: 2rem;
     text-align: right;
-    z-index: 99999999;
 }
 
 .title h1 {
     font-size: 4rem;
-    z-index: 99999999;
 }
 
 button {
@@ -39,7 +37,6 @@ button {
     top: 0px;
     transition: top .2s, opacity .2s;
     opacity: 1;
-    z-index: 99999999;
 }
 
 button:hover {
@@ -53,6 +50,10 @@ button:hover {
     left: 0px;
     padding: .5rem;
     padding-top: 0rem;
+    position: fixed;
+    z-index: 999999999999999999999;
+    background-color: #4674d0;
+    padding-bottom: 1rem;
 }
 
 .nav .icon {
@@ -62,6 +63,21 @@ button:hover {
     top: .6rem;
 }
 
+.details {
+    position: relative;
+    width: calc(100vw - 14px);
+    left: -8px;
+    top: 100vh;
+    z-index: 9999;
+    background-color: #1e2533;
+    padding: 2rem;
+    height: calc(100vh - 5rem);
+}
+
+.details p {
+    width: 60vw;
+}
+
 @media (pointer:none), (pointer:coarse) {
     .title {
         top: 6rem;
@@ -69,5 +85,9 @@ button:hover {
 
     .title h1 {
         font-size: 2rem;
+    }
+
+    .details p {
+        width: 100%;
     }
 }
