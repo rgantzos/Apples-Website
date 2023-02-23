@@ -1,1 +1,1 @@
-We only access your public profile data and will display it on our leaderboards if applicable. We also track message content for artificial intelligence learning primarily for the bot, and our moderators filter out sensitive information. You can also request for your messages to be removed.
+We only access your public profile data and will display it on our leaderboards if applicable.
